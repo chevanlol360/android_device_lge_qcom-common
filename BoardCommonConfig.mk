@@ -37,7 +37,7 @@ COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_CUSTOM_GRAPHICS:= ../../../device/lge/f160/recovery/graphics.c
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/lge/f160s/recovery/recovery_keys.c
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/lge/f160/recovery/recovery_keys.c
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # QCOM hardware
